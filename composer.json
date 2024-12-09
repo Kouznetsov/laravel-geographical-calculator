@@ -10,13 +10,10 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "^9.5|^10",
+        "phpunit/phpunit": "^11",
         "friendsofphp/php-cs-fixer": "^3.0"
     },
     "prefer-stable": true,
-    "require-dev": {
-        "orchestra/testbench": "^6.23"
-    },
     "autoload" : {
         "psr-4": {
             "KMLaravel\\GeographicalCalculator\\" : "src/",
